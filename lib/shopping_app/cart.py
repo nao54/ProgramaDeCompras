@@ -1,7 +1,7 @@
 from ownable import Ownable
-from item_manager import show_items
 
 class Cart(Ownable):
+    from item_manager import show_items
     
     def __init__(self, owner):
         super().__init__()  
