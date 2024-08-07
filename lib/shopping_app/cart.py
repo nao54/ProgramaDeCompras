@@ -5,7 +5,7 @@ class Cart(Ownable):
     
     def __init__(self, owner):
         super().__init__()  
-        self.set_owner(owner)  
+        self.owner = owner  
         self.items = []  
 
     def items_list(self):
